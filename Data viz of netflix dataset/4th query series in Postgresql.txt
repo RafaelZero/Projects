@@ -1,0 +1,8 @@
+-- Queries in Postgresql
+SELECT country AS countries, release_year AS years, COUNT(title) AS counts
+FROM netflix_project.netflix_viz
+	GROUP BY country, release_year, type
+	HAVING type LIKE 'TV Show' AND country NOT ILIKE '%,%'
+ORDER BY release_year DESC, countries
+;
+-- Con estos únicos datos serán suficientes para formar un dataset que permita crear una progresión histórica sobre la publicación de películas en la plataforma para cada país

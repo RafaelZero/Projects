@@ -1,0 +1,41 @@
+#Queries in R
+boxplot(datas$minutes,
+	ylab='duracion (minutos)',
+	main='duracion de peliculas')
+
+ggplot(netflix_data_c, aes(x=as.factor(country), y=minutes)) +
+	geom_boxplot(fill='slateblue', alpha=0.2) +
+	xlab('country')
+
+box_data <- ggplot(netflix_data_c,
+					aes(x=reorder(as.factor(country),minutes),
+						y=minutes,
+						fill=as.factor(country),
+						color=as.factor(country))) +
+				geom_boxplot(alpha=0.25) +
+				xlab('country')
+
+box_data + scale_fill_manual(values=c(
+							'red',
+							'navy',
+							'blue',
+							'yellow',
+							'cyan',
+							'magenta',
+							'orange',
+							'maroon',
+							'orange red',
+							'purple'
+							))
+# Un boxplot que muestra la aglomeración más común de los datos utilizados donde se puede apreciar que los 5 países a la izquierda/arriba de la leyenda son aquellos que cuentan con las películas con una duración menor a los 100 minutos en su mayoría, mientras la otra mitad cuentan con su mayoría películas superiores a los 100 minutos, también se puede observar como la India cuenta con una media mayor a los 125 minutos.
+
+ggplot(netflix_data_c, aes(x=reorder(as.factor(country),minutes),
+							y=minutes,
+							fill=reorder(as.factor(country),minutes),
+							color=reorder(as.factor(country), minutes))) +
+	geom_boxplot(alpha=0.25) +
+	xlab('country')
+
+indiaset <- netflix_data_c %>%
+	filter(country %in% c('India'))
+#Comprobando matemáticamente con el software los datos del boxplot sobre India

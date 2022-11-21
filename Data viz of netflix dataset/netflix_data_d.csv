@@ -1,0 +1,360 @@
+countries,years,counts
+Argentina,2021,1
+Australia,2021,5
+Belgium,2021,2
+Brazil,2021,1
+Canada,2021,3
+Colombia,2021,1
+Egypt,2021,1
+France,2021,2
+Germany,2021,4
+Iceland,2021,1
+India,2021,9
+Israel,2021,2
+Italy,2021,2
+Japan,2021,10
+Jordan,2021,1
+Mexico,2021,6
+Nigeria,2021,2
+Poland,2021,2
+South Africa,2021,1
+South Korea,2021,13
+Spain,2021,9
+Sweden,2021,1
+Thailand,2021,2
+Turkey,2021,3
+United Arab Emirates,2021,1
+United Kingdom,2021,16
+United States,2021,89
+Argentina,2020,5
+Australia,2020,4
+Brazil,2020,11
+Canada,2020,10
+China,2020,6
+Colombia,2020,4
+Denmark,2020,1
+Egypt,2020,2
+France,2020,8
+Germany,2020,9
+Iceland,2020,1
+India,2020,16
+Indonesia,2020,1
+Israel,2020,1
+Italy,2020,6
+Japan,2020,13
+Lebanon,2020,1
+Mexico,2020,8
+Netherlands,2020,2
+Norway,2020,3
+Philippines,2020,1
+Poland,2020,1
+Russia,2020,1
+Saudi Arabia,2020,1
+South Africa,2020,3
+South Korea,2020,24
+Spain,2020,10
+Sweden,2020,2
+Taiwan,2020,3
+Thailand,2020,3
+Turkey,2020,3
+United Kingdom,2020,25
+United States,2020,159
+Argentina,2019,5
+Australia,2019,7
+Belgium,2019,2
+Brazil,2019,7
+Canada,2019,5
+China,2019,12
+Colombia,2019,5
+Egypt,2019,1
+France,2019,11
+Germany,2019,3
+Hong Kong,2019,1
+India,2019,13
+Italy,2019,1
+Japan,2019,18
+Jordan,2019,1
+Kuwait,2019,2
+Lebanon,2019,2
+Luxembourg,2019,1
+Mexico,2019,9
+Netherlands,2019,1
+New Zealand,2019,1
+Poland,2019,1
+Russia,2019,2
+Senegal,2019,1
+South Africa,2019,1
+South Korea,2019,19
+Spain,2019,10
+Sweden,2019,2
+Taiwan,2019,5
+Thailand,2019,7
+Turkey,2019,1
+United Kingdom,2019,19
+United States,2019,134
+Argentina,2018,2
+Australia,2018,8
+Belgium,2018,1
+Brazil,2018,5
+Canada,2018,9
+China,2018,6
+Colombia,2018,3
+Croatia,2018,1
+Denmark,2018,3
+Egypt,2018,6
+Finland,2018,1
+France,2018,11
+Germany,2018,2
+Hong Kong,2018,1
+India,2018,13
+Ireland,2018,2
+Israel,2018,1
+Japan,2018,30
+Lebanon,2018,2
+Mexico,2018,4
+New Zealand,2018,1
+Nigeria,2018,2
+Russia,2018,2
+South Korea,2018,17
+Spain,2018,8
+Taiwan,2018,4
+Thailand,2018,4
+Turkey,2018,3
+United Kingdom,2018,29
+United States,2018,110
+Argentina,2017,2
+Australia,2017,5
+Belgium,2017,3
+Brazil,2017,1
+Canada,2017,4
+China,2017,4
+Colombia,2017,1
+Cyprus,2017,1
+Egypt,2017,2
+France,2017,6
+Germany,2017,1
+Hong Kong,2017,1
+India,2017,3
+Israel,2017,2
+Italy,2017,1
+Japan,2017,19
+Lebanon,2017,1
+Malaysia,2017,3
+Mexico,2017,2
+Netherlands,2017,1
+Nigeria,2017,2
+Pakistan,2017,1
+Philippines,2017,1
+Russia,2017,3
+South Africa,2017,1
+South Korea,2017,23
+Spain,2017,6
+Sweden,2017,2
+Taiwan,2017,7
+Thailand,2017,2
+Turkey,2017,1
+Ukraine,2017,1
+United Kingdom,2017,31
+United States,2017,68
+Argentina,2016,1
+Australia,2016,10
+Belarus,2016,1
+Brazil,2016,1
+Canada,2016,12
+Chile,2016,1
+China,2016,2
+Colombia,2016,2
+Denmark,2016,2
+Egypt,2016,1
+France,2016,2
+Germany,2016,1
+India,2016,1
+Ireland,2016,1
+Israel,2016,1
+Italy,2016,2
+Japan,2016,12
+Mexico,2016,4
+Nigeria,2016,1
+Norway,2016,1
+Russia,2016,1
+Singapore,2016,2
+South Korea,2016,23
+Spain,2016,2
+Sweden,2016,1
+Taiwan,2016,8
+Thailand,2016,3
+Turkey,2016,4
+United Kingdom,2016,26
+United States,2016,53
+Argentina,2015,2
+Australia,2015,4
+Canada,2015,2
+Chile,2015,1
+China,2015,2
+Colombia,2015,1
+Denmark,2015,1
+Egypt,2015,1
+France,2015,2
+Iceland,2015,1
+India,2015,9
+Indonesia,2015,1
+Israel,2015,1
+Italy,2015,1
+Japan,2015,9
+Malaysia,2015,1
+Mexico,2015,1
+Nigeria,2015,1
+Poland,2015,1
+Russia,2015,4
+Singapore,2015,1
+South Korea,2015,11
+Spain,2015,1
+Switzerland,2015,1
+Taiwan,2015,8
+Thailand,2015,2
+Turkey,2015,3
+Ukraine,2015,1
+United Kingdom,2015,19
+United States,2015,32
+Brazil,2014,1
+Canada,2014,4
+France,2014,2
+India,2014,5
+Japan,2014,12
+Pakistan,2014,1
+Poland,2014,1
+Russia,2014,1
+Saudi Arabia,2014,1
+Singapore,2014,5
+South Korea,2014,7
+Taiwan,2014,3
+Thailand,2014,1
+Turkey,2014,5
+United Kingdom,2014,9
+United States,2014,18
+Australia,2013,1
+Canada,2013,1
+Chile,2013,1
+India,2013,3
+Japan,2013,5
+Mexico,2013,1
+Nigeria,2013,1
+Saudi Arabia,2013,1
+Singapore,2013,1
+South Korea,2013,6
+Spain,2013,2
+Taiwan,2013,5
+Turkey,2013,3
+United Kingdom,2013,10
+United States,2013,14
+Australia,2012,1
+Canada,2012,3
+China,2012,2
+Colombia,2012,2
+Denmark,2012,1
+France,2012,1
+India,2012,2
+Japan,2012,4
+Pakistan,2012,1
+Singapore,2012,2
+South Korea,2012,10
+Taiwan,2012,5
+United Kingdom,2012,7
+United States,2012,11
+Canada,2011,1
+China,2011,1
+France,2011,1
+India,2011,1
+Japan,2011,5
+Malaysia,2011,1
+Pakistan,2011,1
+Singapore,2011,3
+South Korea,2011,1
+Taiwan,2011,4
+United Kingdom,2011,6
+United States,2011,9
+Canada,2010,1
+China,2010,2
+Colombia,2010,1
+India,2010,3
+Japan,2010,5
+Mexico,2010,2
+South Korea,2010,2
+Taiwan,2010,1
+Turkey,2010,1
+United Kingdom,2010,3
+United States,2010,6
+Australia,2009,1
+Canada,2009,1
+France,2009,1
+India,2009,1
+Japan,2009,3
+Singapore,2009,3
+South Korea,2009,3
+Taiwan,2009,6
+Turkey,2009,1
+United Kingdom,2009,2
+United States,2009,5
+China,2008,1
+Colombia,2008,1
+Japan,2008,8
+Taiwan,2008,1
+United Kingdom,2008,2
+United States,2008,6
+Australia,2007,1
+Canada,2007,2
+Colombia,2007,1
+Japan,2007,1
+Norway,2007,1
+United States,2007,4
+Japan,2006,4
+United Kingdom,2006,2
+United States,2006,5
+Japan,2005,1
+Taiwan,2005,2
+Turkey,2005,1
+United Kingdom,2005,1
+United States,2005,6
+France,2004,1
+Mexico,2004,2
+Taiwan,2004,2
+United Kingdom,2004,1
+United States,2004,2
+Japan,2003,2
+Malaysia,2003,1
+Taiwan,2003,1
+United States,2003,3
+France,2002,1
+Japan,2002,1
+Taiwan,2002,2
+United States,2002,1
+Japan,2001,1
+United Kingdom,2001,1
+United States,2001,3
+Japan,2000,1
+United States,2000,2
+Australia,1999,1
+Japan,1999,1
+United Kingdom,1999,1
+United States,1999,3
+Canada,1998,1
+Japan,1998,1
+United States,1998,1
+United States,1996,1
+Japan,1995,1
+United States,1995,1
+United States,1994,1
+United States,1993,2
+United Kingdom,1992,1
+United States,1992,2
+United States,1990,3
+United States,1988,2
+Japan,1986,1
+Japan,1981,1
+Mexico,1979,1
+United Kingdom,1977,1
+United Kingdom,1974,1
+United States,1967,1
+United States,1963,1
+United States,1946,1
+United States,1945,1

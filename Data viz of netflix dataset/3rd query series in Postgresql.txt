@@ -1,0 +1,68 @@
+-- Quieries in PostgreSQL
+/*
+C- Observar la duración de las películas desde los últimos 9 años por país de los países que cuentan con mayor
+número de películas de género comedia… (Boxplot)
+
+Mostrar la duración de las películas de los últimos 9 años por país de los países que tienen mayor número de
+transmisión de películas de género 'Comedia'.
+
+Contar el número de películas de género 'Comedia' y luego filtrar los 10 países con más películas de comedia.
+
+El resultado quedará contando por distintos géneros combinados como unidades diferentes, haciendo de éste resultado una vista (VIEW) podemos agrupar y contar más eficientemente el número que búscamos.
+*/
+SELECT 
+FROM netflix_project.netflix_viz
+
+SELECT DISTINCT(listed_in)
+FROM netflix_project.netflix_viz
+WHERE type LIKE 'Movie' AND listed_in ILIKE '%comedies%'
+-- Para distinguir las películas de género comedia
+-- Con 1674 películas de comedia en TOTAL
+
+SELECT country, type, listed_in, release_year
+FROM netflix_project.netflix_viz
+WHERE release_year >= 2013 AND country IS NOT NULL AND type LIKE 'Movie' AND listed_in LIKE '%Comedies%'
+;
+-- Con ésto tenemos las películas de comedia junto a los países que las sacaron en los últimos nueve años
+-- 1ra captura
+
+SELECT country, type, listed_in, release_year, count(show_id) AS peliculas
+FROM netflix_project.netflix_viz
+GROUP BY country, type, listed_in, release_year
+HAVING release_year >= 2013 AND country IS NOT NULL AND type LIKE 'Movie' AND listed_in LIKE '%Comedies%'
+	AND country IN ('India', 'United States', 'Egypt', 'Canada', 'Philippines', 'Turkey', 'Spain',
+					   'Nigeria', 'Germany', 'Indonesia')
+ORDER BY peliculas DESC
+;
+-- El conteo de películas de los 10 países que han transmitido los mayores números de películas de comedia en los últimos nueve años, y hacer de ésto una vista (VIEW)
+-- 2da captura
+
+CREATE OR REPLACE VIEW movies_countries AS
+SELECT country, type, listed_in, release_year, count(show_id) AS peliculas
+FROM netflix_project.netflix_viz
+GROUP BY country, type, listed_in, release_year
+HAVING release_year >= 2013 AND country IS NOT NULL AND type LIKE 'Movie' AND listed_in LIKE '%Comedies%'
+	AND country IN ('India', 'United States', 'Egypt', 'Canada', 'Philippines', 'Turkey', 'Spain',
+					   'Nigeria', 'Germany', 'Indonesia')
+ORDER BY peliculas DESC
+;
+
+SELECT country, sum(peliculas) AS conteo
+FROM movies_countries
+GROUP BY country
+ORDER BY conteo DESC
+;
+-- Al final se consigue el número de películas de comedia que lanzaron los 10 países que más estrenaron de éste género y tipo durante los últimos nueve años.
+-- 3ra captura
+
+-- Siguiendo con la duración de éstas
+
+SELECT country, title, release_year, duration, CAST(LEFT(duration, 3) AS INTEGER) AS minutes
+FROM netflix_project.netflix_viz
+WHERE release_year >= 2013 AND country IS NOT NULL AND type LIKE 'Movie' AND listed_in LIKE '%Comedies%'
+	AND country IN ('India', 'United States', 'Egypt', 'Canada', 'Philippines', 'Turkey', 'Spain',
+					   'Nigeria', 'Germany', 'Indonesia')
+
+ORDER BY minutes asc
+;
+-- Con ésta información realizamos el dataset
